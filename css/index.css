@@ -1,0 +1,151 @@
+html,
+body,
+.swiper-container,
+.banner {
+    height: 100%;
+}
+
+.banner {
+    background: url(../imgs/hero-bg-4.jpg) center center;
+    background-size: cover;
+}
+.conter{
+    margin-left: -1px;
+    height: 260px;
+}
+.conterItem{
+    height: 260px;
+    width: 25%;
+    background: url(../imgs/promo-01.jpg) center center;
+    background-size: cover;
+    float: left;
+    border-left: 1px solid #fff;
+    border-top: 2px solid #fff;
+    box-sizing: border-box;
+}
+.conterItem h3{
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    margin-top: 35px;
+    font-weight: 400;
+}
+.bottom{
+    height: 140px;
+    padding: 1px 0;
+}
+.bottomCenter{
+    height: 140px;
+    width: 1040px;
+    padding: 0 20px;
+    margin: 0 auto;
+    font-size: 0;
+    /* display: flex; */
+}
+.bottomItem{
+    width: 33.33%;
+    height: 50px;
+    padding: 45px 0;
+    display: inline-block;
+    font-size: 0;
+    /* display: flex;
+    flex: 1; */
+}
+.bottomItem div{
+    display: inline-block;
+}
+.bottomItem:nth-child(2){
+    /* justify-content: center; */
+    text-align: center;
+}
+.bottomItem:nth-child(3){
+    /* justify-content: flex-end; */
+    text-align: right;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    background: url(../imgs/icon-wechat.png) no-repeat center center;
+    background-size: contain;
+    margin-right: 10px;
+    vertical-align: top;
+}
+.text h4{
+    font-weight: 400;
+    text-align: left;
+    font-size: 16px;
+}
+.text p{
+    font-weight: 300;
+    font-size: 16px;
+}
+.foot{
+    height: 247px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.footCenter{
+    width: 1040px;
+    height: 157px;
+    margin: 0 auto;
+    padding: 45px 0;
+}
+dl{
+    float: right;
+    margin-left: 100px;
+    width: 90px;
+    height: 150px;
+    text-align: center;
+}
+dd{
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+dt{
+    font-size: 15px;
+    margin: 10px 0;
+}
+a{
+    color: #000;
+}
+a:hover{
+    color: red;
+}
+.footLeft{
+    width: 280px;
+    height: 150px;
+    float: left;
+}
+.footLeft img{
+    width: 160px;
+    height: 37px;
+}
+
+.footLeft p{
+    line-height: 2.3;
+    font-size: 16px;
+}
+.footB{
+    height: 149px;
+}
+.footBCenter{
+    width: 1040px;
+    height: 59px;
+    padding: 45px 0;
+    color: #999;
+    margin: 0 auto;
+}
+.footBLeft{
+    float: left;
+}
+.pic{
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+.police{
+    width: 15px;
+    height: 15px;
+}
